@@ -2,13 +2,13 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/projectname.git
+git clone https://github.com/amraoui-mo7amed/company_application.git
 ```
 
 ### 2. Change into the project directory and create a virtual environment
 
 ```bash
-cd projectname
+cd company_application
 python -m venv .venv
 ```
 
