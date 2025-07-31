@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block css %}
+    <link rel="stylesheet"
+          href="{% static 'css/dash_index.css' %}?v={% now "U" %}" />
+{% endblock css %}
+
+{% block content %}
+    <div class="account-actions">
+        <a href="{% url 'user_auth:logout' %}"
+           class="btn btn-danger position-fixed bottom-0 end-0 m-2 z-1">Se déconnecter</a>
+    </div>
+    {% block dashContent %}
+    {% endblock dashContent %}
+{% endblock content %}

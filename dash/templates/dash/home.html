@@ -1,0 +1,17 @@
+{% extends "dash/index.html" %}
+{% load static i18n %}
+
+
+{% block dashContent %}
+    <div class="container-fluid my-5">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="fw-semibold mb-0">List des requêtes</h5>
+            </div>
+            <div class="card-body">
+                <p>Aucune requête trouvée, click le bouton ci-dessous pour en créer une.</p>
+                <a href="#" class="btn btn-primary">Créer une requête</a>
+            </div>
+        </div>
+    </div>
+{% endblock dashContent %}

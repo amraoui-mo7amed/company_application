@@ -1,0 +1,25 @@
+/* error List */
+#errorList 
+{
+    list-style: none;
+    padding: 0;
+}
+
+/* error List li */
+#errorList li
+{
+    color: var(--bs-light);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#errorList li.error-message
+{
+    background-color: var(--bs-danger);
+}       
+
+#errorList li.success-message
+{
+    background-color: var(--bs-success);
+}

@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "line-length": 120,
+    "indent": 4,
+    "trailing-newline": true,
+    "no-empty-blocks": true
+  },
+  "ignore": "H021,H006,H023,H024,H014,T002,H016,H030,H031"
+}
