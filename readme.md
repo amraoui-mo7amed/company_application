@@ -82,5 +82,5 @@ python manage.py runserver
 ---
 In your browser paste the following url:
 ```bash
-http://127.0.0.1:8000/admin/
+http://127.0.0.1:8000
 ```
